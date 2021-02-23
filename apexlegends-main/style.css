@@ -1,0 +1,81 @@
+:root {
+    --hatter: #F2561D;
+    --menu: #730220;
+    --feher: white;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#menuszalag {
+    width: 100%;
+    background-image: url(képek/dirtop.png);
+    color: var(--feher);
+    height: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 0%;
+}
+
+#menuszalag ul {
+    display: inline;
+}
+
+#menuszalag ul li {
+    display: inline;
+    padding: 10px;
+    line-height: 50px;
+}
+
+a {
+    color: var(--feher);
+    text-decoration: none;
+}
+
+#tartalom {
+    background-image: url(képek/dirtbottom.jpg);
+    color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 400px;
+    width: 700px;
+    padding: 0%;
+    text-align: bottom;
+    padding-left: 5%;
+}
+
+p {
+    font-size: x-large;
+    padding-left: 10px;
+}
+
+ol {
+    font-size: x-large;
+    text-align: justify;
+}
+
+#lepes {
+    padding: 10px;
+    text-align: left;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#realm{
+    text-decoration: underline;
+    color: lightgray;
+}
+#grimstone{
+    text-decoration: underline;
+    color: lightgray;
+}
+#grimstoneli{
+    padding-right: 5px;
+}
